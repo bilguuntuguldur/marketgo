@@ -1,0 +1,124 @@
+.poslistcategories {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.poslistcategories .pos_title {
+    margin-bottom: 30px;
+}
+
+.pos_title {
+    text-align: left;
+    position: relative;
+}
+
+.pos_title:before {
+    content: "";
+    background: #e9e9e9;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 53%;
+    left: 0;
+}
+
+.pos_title h2 {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 26px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    background: #fff;
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+.pos_title h2 span.t1 {
+    font-weight: 400;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+}
+
+.poslistcategories .owl-carousel .owl-item {
+    padding: 0 15px;
+}
+
+.poslistcategories .list-categories {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.poslistcategories .list-categories .thumb-category {
+    position: relative;
+    overflow: hidden;
+    width: 40%;
+    float: right;
+}
+
+.poslistcategories .list-categories .desc-listcategoreis {
+    position: relative;
+    text-align: left;
+    float: left;
+    padding-left: 20px;
+    padding-right: 5px;
+    width: 60%;
+    padding-top: 20px;
+}
+
+.poslistcategories .list-categories .desc-listcategoreis .name_categories {
+    padding-bottom: 10px;
+}
+
+.poslistcategories .list-categories .desc-listcategoreis .name_categories a {
+    font-size: 16px;
+    color: #222;
+    display: block;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: capitalize;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+}
+
+.poslistcategories .list-categories .desc-listcategoreis .number_product {
+    color: #a9a9a9;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.poslistcategories .list-categories:last-child {
+    margin-bottom: 0px;
+}

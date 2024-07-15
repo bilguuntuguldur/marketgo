@@ -1,0 +1,19 @@
+@media (min-width: 992px) {
+    #header .header-bottom.scroll-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1001;
+        background: rgba(254, 220, 25, 0.7) !important;
+        border: none;
+        -webkit-transition: all 300ms ease-in;
+        -moz-transition: all 300ms ease-in;
+        -ms-transition: all 300ms ease-in;
+        -o-transition: all 300ms ease-in;
+        transition: all 300ms ease-in;
+        -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+    }
+}

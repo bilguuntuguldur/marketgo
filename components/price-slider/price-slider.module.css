@@ -1,0 +1,43 @@
+.priceSlider {
+    position: relative;
+    width: 300px;
+  }
+  
+  .rangeInput {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    background: #ddd;
+  }
+  
+  .rangeInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 4px;
+    height: 20px;
+    background: #555;
+    cursor: pointer;
+  }
+  
+  .rangeInput::-moz-range-thumb {
+    width: 4px;
+    height: 20px;
+    background: #555;
+    cursor: pointer;
+  }
+  
+  .sliderTrack {
+    position: absolute;
+    height: 5px;
+    background: #ddd;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+  
+  .sliderValues {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+  }

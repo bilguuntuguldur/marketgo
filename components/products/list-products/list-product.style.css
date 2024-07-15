@@ -1,0 +1,77 @@
+
+.poslistcateproduct {
+    margin-top: 60px;
+}
+
+.poslistcateproduct .pos_title {
+    margin-bottom: 30px;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.poslistcateproduct .owl-nav {
+    top: -65px;
+}
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+}
+
+.owl-nav {
+    position: absolute;
+    right: 15px;
+    top: -58px;
+    background: white;
+    display: inline-block;
+    border: 1px solid #e9e9e9;
+    padding: 0 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+
+.js-product-miniature:last-child {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+.js-product-miniature {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.poslistcateproduct .js-product-miniature .img_block {
+    position: relative;
+    overflow: hidden;
+    width: 40%;
+    float: right;
+}
+
+.js-product-miniature .product_desc {
+    padding: 18px 15px 30px;
+    padding-bottom: 0;
+    overflow: hidden;
+    text-align: left;
+}
+
+.poslistcateproduct .js-product-miniature .product_desc {
+    position: relative;
+    text-align: left;
+    float: left;
+    padding-left: 20px;
+    padding-right: 5px;
+    width: 60%;
+    padding-top: 20px;
+}

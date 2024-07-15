@@ -1,0 +1,59 @@
+.tab-manufacturers-container-slider .manu_facturer .owl-nav {
+    top: -193px;
+}
+
+.owl-nav {
+    position: absolute;
+    right: 15px;
+    top: -58px;
+    background: white;
+    display: inline-block;
+    border: 1px solid #e9e9e9;
+    padding: 0 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+
+.tab-manufacturers-container-slider .thumb_manu {
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    background: #f8f8f8;
+    padding: 17px 10px;
+    margin-bottom: 30px;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+}
+
+.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    padding: 0 15px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    max-width: 100%;
+}
